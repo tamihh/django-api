@@ -1,4 +1,4 @@
 release python manage.py makemigrations --no-input
 release python manage.py migrate --no-input
 
-web: gunicorn leadmanager.wsgi
+web: gunicorn leadmanager/leadmanager.wsgi
