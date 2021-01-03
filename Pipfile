@@ -7,6 +7,8 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 django-rest-knox = "*"
+psycopg2 = "*"
+django-heroku = "*"
 
 [dev-packages]
 
